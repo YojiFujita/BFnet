@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    "build": "node net.js > public/index.html"
+    "build": "node net.js > public/index.html",
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",

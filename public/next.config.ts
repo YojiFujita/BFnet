@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   typescript: {
     // ignoreBuildErrors: true,
   },
-  target: 'serverless', // 追記
+  target: 'serverless' // 追記
 };
 
 export default nextConfig;

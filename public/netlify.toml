@@ -1,6 +1,7 @@
 [build]
   publish = "public/"
   build = "npm run build"
+  functions = "functions"
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 [[plugins]]
